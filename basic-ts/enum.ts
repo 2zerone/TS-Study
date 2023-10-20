@@ -1,4 +1,5 @@
 // enum
+// js에는 enum이 없기 때문에 컴파일 한 js 파일에는 function으로 구현됨
 enum categoryEnum {
     H = "H",
     K = "K",
