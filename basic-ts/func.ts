@@ -7,3 +7,9 @@ const minus: (a: number, b: number) => string = (
     a: number,
     b: number,
 ): string => String(a - b);
+
+const multiple: (a: number, b: number) => () => number = (a: number, b: number): () => number => {
+    return () => {
+        return a * b * 2;
+    }
+}
