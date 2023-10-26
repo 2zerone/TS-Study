@@ -30,5 +30,11 @@ type SuperVoid = void;
 
 // 타입 별칭을 사용하는 대표적 2가지 이유
 // 1. 함수가 길 때
-// 2. 타입 자체가 길어질 때
+// 2. 타입 자체가 길어질 때 >> "hello" | "world" | "hi" | "bye" . . . . .
 
+function sendError() {
+    console.log("에러 발생");
+}
+
+const result = sendError();
+console.log("result: ", result);
